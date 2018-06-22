@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     container_name: vano-tunes-db
-    image: postgres:9.6.8
+    image: postgres:9.6.8@sha256:3157e827b57605b0a3b44ca6e13876c4275a118defb831344c950b0273604aec
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
     ports:
