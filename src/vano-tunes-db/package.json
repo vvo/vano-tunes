@@ -1,0 +1,16 @@
+{
+  "name": "vano-tunes-db",
+  "description": "📕 description",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "vvo/vano-tunes",
+  "main": "src/index.js",
+  "private": true,
+  "dependencies": {
+    "vano-tunes-env": "1.0.0",
+    "pg": "7.4.3"
+  },
+  "keywords": [
+    "keyword"
+  ]
+}

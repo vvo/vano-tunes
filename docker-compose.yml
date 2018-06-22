@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3'
+services:
+  db:
+    container_name: vano-tunes-db
+    image: postgres:9.6.8
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    ports:
+      - "26432:5432"
+    environment:
+      - POSTGRES_PASSWORD=vano-tunes

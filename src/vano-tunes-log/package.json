@@ -1,0 +1,16 @@
+{
+  "name": "vano-tunes-log",
+  "description": "📕 description",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "vvo/vano-tunes",
+  "main": "src/index.js",
+  "private": true,
+  "dependencies": {
+    "bunyan": "1.8.12",
+    "bunyan-debug-stream": "1.0.8"
+  },
+  "keywords": [
+    "keyword"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "lerna": "2.10.1",
+  "packages": [
+    "src/*"
+  ],
+  "commands": {
+    "init": {
+      "exact": true
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "1.0,0"
+}

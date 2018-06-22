@@ -1,0 +1,16 @@
+{
+  "name": "vano-tunes-env",
+  "description": "📕 description",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "vvo/vano-tunes",
+  "main": "src/index.js",
+  "private": true,
+  "dependencies": {
+    "dotenv-extended": "2.0.2",
+    "dotenv-parse-variables": "0.2.0"
+  },
+  "keywords": [
+    "keyword"
+  ]
+}

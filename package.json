@@ -1,0 +1,54 @@
+{
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "doctoc": "doctoc --maxlevel 2 README.md .github/CONTRIBUTING.md",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "update-docs": "npm run doctoc && git add README.md .github/CONTRIBUTING.md && git commit -am 'docs(READMES): update' && git push",
+    "release": "lerna publish --exact --conventional-commits",
+    "dev": "node dev.js"
+  },
+  "dependencies": {
+    "vano-tunes-log": "1.0.0",
+    "babel-eslint": "8.2.4",
+    "db-migrate": "0.11.1",
+    "db-migrate-pg": "0.4.0",
+    "eslint": "4.19.1",
+    "eslint-config-algolia": "13.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "lerna": "2.11.0",
+    "nodemon": "1.17.5",
+    "prettier": "1.13.5"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "renovate": {
+    "extends": [
+      "config:js-app"
+    ]
+  },
+  "engines": {
+    "node": "10.5.0",
+    "yarn": "1.7.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "algolia"
+    ],
+    "rules": {
+      "curly": "error",
+      "import/no-commonjs": "off",
+      "import/order": "error",
+      "arrow-body-style": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "devDependencies": {}
+}
