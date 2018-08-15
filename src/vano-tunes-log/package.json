@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "bunyan": "1.8.12",
-    "bunyan-debug-stream": "1.0.8"
+    "bunyan-debug-stream": "1.1.1"
   },
   "keywords": [
     "keyword"
