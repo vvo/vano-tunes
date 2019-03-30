@@ -15,7 +15,7 @@
     "babel-eslint": "8.2.4",
     "db-migrate": "0.11.1",
     "db-migrate-pg": "0.4.0",
-    "eslint": "4.19.1",
+    "eslint": "5.16.0",
     "eslint-config-algolia": "13.1.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.12.0",
