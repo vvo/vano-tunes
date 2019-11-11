@@ -22,7 +22,7 @@
     "eslint-plugin-prettier": "2.6.0",
     "lerna": "2.11.0",
     "nodemon": "1.17.5",
-    "prettier": "1.13.5"
+    "prettier": "1.19.1"
   },
   "workspaces": [
     "src/*"
