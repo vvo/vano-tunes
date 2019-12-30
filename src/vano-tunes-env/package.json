@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "private": true,
   "dependencies": {
-    "dotenv-extended": "2.0.2",
+    "dotenv-extended": "2.7.1",
     "dotenv-parse-variables": "0.2.0"
   },
   "keywords": [
